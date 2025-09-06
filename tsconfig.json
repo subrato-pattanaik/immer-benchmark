@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		// Compile TS → modern JS, supports top-level await, class fields, async/await.
+
+		"moduleResolution": "node",
+		"types": ["node", "asciichart"],
+		// Ensures Node resolves imports correctly (ESM + .ts/.js extensions).
+
+		"esModuleInterop": true,
+		// Allows default imports from CommonJS libs like lodash.clonedeep.
+
+		"strict": true,
+		// All strict type-checking enabled.
+
+		"skipLibCheck": true,
+		// Skips type checking inside node_modules (faster builds).
+
+		"resolveJsonModule": true,
+		// Lets you import JSON files directly.
+
+		"outDir": "dist"
+		// Compiled JS will go into ./dist
+	},
+	"include": ["src/**/*.ts"]
+}
