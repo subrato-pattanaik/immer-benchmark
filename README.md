@@ -1,6 +1,8 @@
 # Benchmark: Immer vs Lodash.cloneDeep
 
-We benchmarked state updates using immer and lodash.cloneDeep to see which one performs better for deep cloning and updating nested objects.
+We benchmarked state updates using immer and lodash.cloneDeep to see which one performs better for deep cloning and updating nested objects. I gave the following presentation to the team about the advantages of immer and how can we use in react app.
+
+https://update-objects-in-state.vercel.app/
 
 ## Setup
 
